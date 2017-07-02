@@ -1,0 +1,17 @@
+net: "/mnt/lustre/dingyang/cervix_caffe_dingyang/myself/inception-v4/inceptionV4_train_val_ZXYBN_ADLossb1b7_FCN_finetune_of_ADLossb1b7.prototxt"
+test_iter: 800
+test_interval: 400
+test_initialization: false
+display: 40
+average_loss: 40
+base_lr: 0.005
+lr_policy: "step"
+stepsize: 8000
+gamma: 0.5
+max_iter: 24000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 400
+snapshot_prefix: "/mnt/lustre/dingyang/cervix_caffe_dingyang/myself/inception-v4/savedCaffemodels/FCN_finetune/iv4_ZXYBN_ADLossb1b7_FCN_finetune"
+solver_mode: GPU
+strategy: STRATEGY_0
